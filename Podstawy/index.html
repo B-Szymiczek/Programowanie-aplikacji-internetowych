@@ -6,35 +6,29 @@
 </head>
 <body>
     ><h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, explicabo amet vel voluptate cupiditate assumenda quaerat repudianda</h1>
+    <h2>Wynik działania:</h2>
     <script>
        /* const numer1 = '5';
         let numer2 = 1;
-
         console.log(numer1);
         console.log(numer2);
-
         Numer2 = 35;
-
         console.log(numer2);
-
         console.log(numer1 + numer2);
         console.log(numer1 - numer2);
         console.log(numer1 * numer2);
         console.log(numer1 / numer2);
         console.log(parseInt(numer2) + parseInt(numer1));
-
         let numer3 = prompt('Wpisz pierwszą liczbę');
         console.log(numer3);
-
         let numer4 = prompt('Wpisz drugą liczbę');
         console.log(numer4);
-
         alert('Wynik dodawania to:'+ (parseInt(numer3) + parseInt(numer4)));
         alert('Wynik odejmowania to:'+ (parseInt(numer3) - parseInt(numer4)));
         alert('Wynik mnożenia to:'+ (parseInt(numer3) * parseInt(numer4)));
         alert('Wynik dzielenia to:'+ (parseInt(numer3) / parseInt(numer4)));
 */
-        let numer5 
+      /*  let numer5 
         numer5 = prompt('Wpisz pierwszą liczbę');
         console.log(numer5);
 
@@ -60,6 +54,47 @@
             numer6 = prompt('Podaj liczbę')
         }
             alert('Wynik dodawania to:'+ (parseInt(numer5) + parseInt(numer6)));
+*/
+
+        let numer7
+        do
+        {
+            numer7 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer7));
+        
+        let numer8
+        do
+        {
+            numer8 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer8));
+
+        let sign = prompt('Podaj znak działania')
+
+        switch (sign) 
+        {
+            case '+':
+                document.write('<p>' + (numer7 + numer8) + '</p>')
+                break;
+        
+                case '-':
+                document.write('<p>' + (numer7 - numer8) + '</p>')
+                break;
+
+                case '*':
+                document.write('<p>' + (numer7 * numer8) + '</p>')
+                break;
+
+                case '/':
+                document.write('<p>' + (numer7 / numer8) + '</p>')
+                break;
+            default:
+                document.write('<p>Nie znam takiego działania</p>')
+                break;
+        }
+
+
 
     </script>
 </body>
