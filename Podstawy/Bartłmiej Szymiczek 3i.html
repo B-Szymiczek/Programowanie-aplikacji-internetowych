@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Podstawy</title>
+</head>
+<body>
+    <h1>Wynik działania:</h1>
+
+    <script>
+
+                                        /*Kalkulator*/
+       
+        let numer1
+           do
+        {
+            numer1 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer1));
+        
+        let numer2
+        do
+        {
+            numer2 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer2));
+
+        let sign = prompt('Podaj znak działania')
+
+        switch (sign) 
+        {
+            case '+':
+                document.write('<p>' + (numer1 + numer2) + '</p>')
+                break;
+        
+                case '-':
+                document.write('<p>' + (numer1 - numer2) + '</p>')
+                break;
+
+                case '*':
+                document.write('<p>' + (numer1 * numer2) + '</p>')
+                break;
+
+                case '/':
+                document.write('<p>' + (numer1 / numer2) + '</p>')
+                break;
+            default:
+                document.write('<p>Nie znam takiego działania</p>')
+                break;
+        }
+
+// ---------------------------------------------------------------------------------------
+
+        let numer3 
+        if (numer3 = parseInt(prompt('Podaj liczbę')));
+        else (isNaN(numer3));
+        
+        let numer4
+        if (numer4 = parseInt(prompt('Podaj liczbę')));
+        else (isNaN(numer4));
+
+        let znak 
+        znak = prompt('Wybierz działanie');
+
+        if (znak == '+')
+        {
+            document.write('<p>' + (numer3 + numer4) + '</p>')
+        }
+        if (znak == '-')
+        {
+            document.write('<p>' + (numer3 - numer4) + '</p>')
+        }
+        if (znak == '*')
+        {
+            document.write('<p>' + (numer3 * numer4) + '</p>')
+        }
+        if (znak == '/')
+        {
+            document.write('<p>' + (numer3 / numer4) + '</p>')
+        }
+        else (znak == NaN)
+        {
+            document.write('<p>Nie znam takiego działania</p>')
+        }
+
+
+    </script>
+</body>
+</html>
