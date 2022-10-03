@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Programowanie</title>
+</head>
+<body>
+    <h1>Programowanie aplikacji internetowych</h1>
+    <h2>funkcja w console'i</h2>
+    <script>
+        
+        let numer1;
+        let numer2;
+        do
+        {
+            numer1 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer1));
+        
+        do
+        {
+            numer2 = parseInt(prompt('Podaj liczbę'));
+        } 
+        while (isNaN(numer2));
+
+        function suma(n1, n2) 
+        {
+            return n1+ n2;
+        }
+            console.log(suma(numer1, numer2));
+            numer1 = suma(numer1, numer2);
+            console.log(numer1)
+    </script>
+</body>
+</html>
