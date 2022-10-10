@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Programowanie</title>
+</head>
+<body>
+    <h1>Programowanie aplikacji internetowych</h1>
+    <script>
+
+        const arrl=[6,24,523,234,12]
+        console.log(arrl)
+            arrl.pop()
+            console.log(arrl)
+            arrl.shift()
+            console.log(arrl)
+            arrl.push(23)
+            console.log(arrl)
+            arrl.unshift(365)
+            console.log(arrl)
+            arrl.length=0
+            
+        /*    for (let i=0; i < arrl.length; i++)
+            {
+                console.log(' element nr ' +(i + 1) + ' tablicy to: ' + arrl[i])
+            }*/
+    
+    </script>
+</body>
+</html>
