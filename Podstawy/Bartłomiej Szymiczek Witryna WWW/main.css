@@ -1,0 +1,81 @@
+header
+{
+  border: solid 1px #000;
+  color: #144bb8; 
+ text-align: center;
+ text-size-adjust: 500cm;
+ padding: 1px;
+ margin: auto;
+ font-size: x-large;
+ background-color: #6688cc;
+ text-shadow: #fff;
+}
+section p
+{
+    color: #274e95;
+    font: sans-serif;
+    font-size: large;
+    text-align: center;
+}
+section
+{
+    border: solid 1px #000;
+    text-align: left;
+    font-size: smaller;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    background-color: #bed0f4;
+}
+
+section d
+{
+color: #375ea7;
+
+}
+
+aside p
+{
+    text-align: center;
+    color: floralwhite;
+}
+
+aside
+{
+    font-size: smaller;
+    padding: auto;
+    padding-bottom: 30px;
+    color: #8ba3cd
+}
+
+article
+{
+    border: solid 1px #000;
+    background-color: #3960ac;
+
+}
+
+main
+{
+    border: 20cm;
+    color: #6987f4;
+    text-align: center;
+    background-color: #a8c0f0;
+    
+}
+
+footer
+{
+  font-size: xx-small;
+  color: #144bb8; 
+ text-align: center;
+ background-color: #6688cc;
+ padding: 5px;
+ border: solid 1px #000;
+}
+
+body 
+{
+    background-color: #cccccc;
+    border: 30cm;
+    box-sizing: border-box;
+}
